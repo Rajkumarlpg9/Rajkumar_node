@@ -1,0 +1,46 @@
+{"tool": [{
+  "id":1,
+  "Name": "Jasper",
+  "Release_Date": "Feb-2021",
+  "Technologies_used": "Deep learning techniques GPT-3 AI Model",
+  "Purpose": "generate text, translate languages",
+  "Version": 3.0,
+  "Is_available":true
+
+},
+{
+  "id":2,
+  "Name": "ChatGPT",
+  "Relaese_Date": "Nov-2022",
+  "Technologies_used": "Python and pre-trained transformer algorithm ",
+  "Purpose": "understands and generates humanlike text",
+  "Version": 3.5,
+  "Is_available":true
+},
+{
+  "id":3,
+  "Name": "Murf",
+  "Release_Date": "2020",
+  "Technologies_used": "deep neural networks ",
+  "Purpose": "convert text to speech, voice-overs, and dictations",
+  "Version": 2.0,
+  "Is_available":false
+},
+{
+  "id":4,
+  "Name": "Bard",
+  "Release_Date": "March-2023",
+  "Technologies_used": " Google's neural network architecture ",
+  "Purpose": "Bard can find and show you relevant information",
+  "Version": 1.0,
+  "Is_available":true
+},
+{
+  "id":5,
+  "Name": "SynthGenius Vision",
+  "Release_Date": "June 5, 2023",
+  "Technologies_used": " Computer Vision, Deep Learning",
+  "Purpose": "Tool for generating lifelike images and videos. ",
+  "Version": 1.3,
+  "Is_available":false
+}]}

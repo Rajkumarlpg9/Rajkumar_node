@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            :root{
+    --main-radius: 5px;
+    --main-padding: 5px;
+    --blue: #1e90ff ;
+    --white: #0d0d0d;
+    --yellowish: #F7c600;
+
+}
+
+.container{
+    height: 100vh;
+    font-family: 'Noto Serif', serif;
+    font-weight: 800;
+    font-size: 2em;
+    color:var(--yellowish);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "nav"
+    "content"
+    "Education"
+    "Project"
+    "Experience"
+    "Blogs"
+    "footer";
+    gap: 10px;
+}
+#navbar {
+    display: grid;
+    min-height: 50px;
+    grid-auto-flow: column;
+    background-color: skyblue;;
+    grid-gap: 1.5em;
+    padding: 0 40px;
+  }
+  
+  #logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+  }
+  
+  
+  #links {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1em;
+    font-family: "Open Sans", sans-serif;
+  }
+  .name {
+    font-size: 40px;
+    color: black;
+}
+h1{
+    color:black;
+}
+  #links a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #links a:hover {
+    color: #0474bc;
+  }
+main{
+    background: skyblue;;
+    padding: var(--main-padding);
+    grid-area: main;
+}
+#content{
+    background: skyblue;;
+    padding: var(--main-padding);
+    grid-area: content;
+}
+#Education{
+    background:skyblue;;
+    padding: var(--main-padding);
+    grid-area: Education;
+}
+#Project{
+    background:skyblue;;
+    padding:var(--main-padding) ;
+    grid-area: Project;
+}
+#Experience{
+    background: skyblue;;
+    padding: var(--main-padding);
+    grid-area: Experience;
+}
+#Blogs{
+    background:skyblue;;
+    padding: var(--main-padding);
+    grid-area: Blogs;
+}
+#footer{
+    background:skyblue;;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    grid-area: footer;
+}
+.square {
+    border-style: solid;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 200px;
+}
+p1{
+    padding-left: 200px;
+}
+p{
+    font-size: 30px;
+    color:yellow;
+}
+
+.top {
+    overflow: hidden;
+    
+  }
+  
+  .top a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .top a:hover {
+    background-color: #ddd;
+    
+  }
+  
+  .top a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .top .icon {
+    display: none;
+  }
+@media only screen and (max-width:500px){
+    
+    .container{
+        grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "nav"
+    "content"
+    "Education"
+    "Project"
+    "Experience"
+    "Blogs"
+    "footer";
+    gap: 0.2em;
+    }
+    
+    #content{
+        background-color: skyblue;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .top a:not(:first-child) {display: none;}
+    .top a.icon {
+      float: right;
+      display: block;
+    }
+    .top.responsive {position: relative;}
+    .top.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .top.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+ </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+              <div id="navbar">
+                
+                <div class="top" id="links">
+                  <a href="#About">Home</a>
+                  <a href="#Education">Education</a>
+                  <a href="#Project">Project</a>
+                  <a href="#Experience">Experience</a>
+                  <a href="#Blogs">Blog</a>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i> </a>
+                </div>
+            </div>
+            </nav>
+            </header> 
+                    <div id="content">
+                        <div >
+                            <h3 class="name" style="text-align: center;">RAJ KUMAR LINGALA</h3>
+                        </div>
+                        <h1>About</h1>
+                        <p>I am a techie enthusiast more interested in engineering and technology and I am ready to learn new technologies, I am a person with more flexible and optimistic, currently I am pursuing a master's in computer science I looking forward to working with product-based companies.</p>        
+                    </div>
+                   
+                    <div id="Education">
+                        <h1>Education</h1> 
+                        <p>I've done my schooling From Narendra high school at Armoor, Nizamabad, India. I have done my bachelor's in Computer Science and Engineering from Vellore Institute of Technology, Vellore, India. Currently I'm pursuing Master's from University of New Haven in Computer Science.</p>      
+                    </div>
+                   
+                    <div id="Project">
+                        <h1>Project</h1> 
+                        <p>I've have worked on Banking Project Payment process for Uk based banking company called Voca link as backend developer. where the online payment Api's where developed, And also I worked on Automotive project for Toyota ABS function.</p>        
+                    </div>    
+                   
+                    <div id="Experience">
+                        <h1>Experience</h1> 
+                        <p>I had work Experience of 9 Months. I've worked in Wipro Software Pvt Ltd, In which i worked for master card client for its chiled company called voca link. and i also have 9 months of experience at Robert Bosch Engineering and business solutions as ASWPR worked for Toyota.</p>        
+                    </div>
+                    
+                    <div id="Blogs">
+                        <h1>Blog</h1>
+                        <p>Currently I don't have any Blog,but in the future i want to write blog on science and technology mainly i want to focus on the technology related to software development.</p>        
+                    </div>    
+                    <div id="footer" >
+                        <div id="Details"><h1 >Contact Details</h1></div>
+                        <img class="square" src="./person.png">
+                        <div id="Details-Content">
+                        <p1>&nbsp Raj Kumar Lingala<br></p1><br>
+                        <p1><img src="./phone.png" width="15" height="20"> mobile : 475-308-5412</p1>
+                        <br>
+                        <p1 ><img src="./email.png" width="15" height="20" >rajkumarl9@gmail.com</p1></div>
+                            
+                    </div>
+        </div> 
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("links");
+              if (x.className === "top") {
+                x.className += "responsive";
+              } else {
+                x.className = "top";
+              }
+            }
+            </script>
+    </body>
+</html>

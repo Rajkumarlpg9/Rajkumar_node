@@ -1,0 +1,36 @@
+{"AI-Tools": [{
+  "Name of the Tool": "Jasper",
+  "Date of Release": "Feb-2021",
+  "Technologies used": "Deep learning techniques GPT-3 AI Model",
+  "Purpose of the tool": "generate text, translate languages",
+  "Version": 3.0
+
+},
+{
+  "Name of the Tool": "ChatGPT",
+  "Date of Release": "Nov-2022",
+  "Technologies used": "Python and pre-trained transformer algorithm ",
+  "Purpose of the tool": "understands and generates humanlike text",
+  "Version": 3.5
+},
+{
+  "Name of the Tool": "Murf",
+  "Date of Release": "2020",
+  "Technologies used": "deep neural networks ",
+  "Purpose of the tool": "convert text to speech, voice-overs, and dictations",
+  "Version": 2.0
+},
+{
+  "Name of the Tool": "Bard",
+  "Date of Release": "March-2023",
+  "Technologies used": " Google's neural network architecture ",
+  "Purpose of the tool": "With Extensions, Bard can find and show you relevant information from the Google tools you use every day",
+  "Version":
+},
+{
+  "Name of the Tool":,
+  "Date of Release": "",
+  "Technologies used": ,
+  "Purpose of the tool": ,
+  "Version":
+}]}
